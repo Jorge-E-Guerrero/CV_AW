@@ -19,8 +19,35 @@ class NavButton extends React.Component{
 }
 */
 
-var Aficiones = function (_React$Component) {
-    _inherits(Aficiones, _React$Component);
+var ConsoleChange = function (_React$Component) {
+    _inherits(ConsoleChange, _React$Component);
+
+    function ConsoleChange() {
+        _classCallCheck(this, ConsoleChange);
+
+        return _possibleConstructorReturn(this, (ConsoleChange.__proto__ || Object.getPrototypeOf(ConsoleChange)).apply(this, arguments));
+    }
+
+    _createClass(ConsoleChange, [{
+        key: "render",
+        value: function render() {
+            return React.createElement(
+                "div",
+                null,
+                React.createElement(
+                    "h1",
+                    null,
+                    "This is the change from the console using git"
+                )
+            );
+        }
+    }]);
+
+    return ConsoleChange;
+}(React.Component);
+
+var Aficiones = function (_React$Component2) {
+    _inherits(Aficiones, _React$Component2);
 
     function Aficiones() {
         _classCallCheck(this, Aficiones);
@@ -61,8 +88,8 @@ var Aficiones = function (_React$Component) {
     return Aficiones;
 }(React.Component);
 
-var InfoBox = function (_React$Component2) {
-    _inherits(InfoBox, _React$Component2);
+var InfoBox = function (_React$Component3) {
+    _inherits(InfoBox, _React$Component3);
 
     function InfoBox() {
         _classCallCheck(this, InfoBox);
@@ -97,8 +124,8 @@ var InfoBox = function (_React$Component2) {
     return InfoBox;
 }(React.Component);
 
-var Titles = function (_React$Component3) {
-    _inherits(Titles, _React$Component3);
+var Titles = function (_React$Component4) {
+    _inherits(Titles, _React$Component4);
 
     function Titles() {
         _classCallCheck(this, Titles);
@@ -124,8 +151,8 @@ var Titles = function (_React$Component3) {
     return Titles;
 }(React.Component);
 
-var Aptitudes = function (_React$Component4) {
-    _inherits(Aptitudes, _React$Component4);
+var Aptitudes = function (_React$Component5) {
+    _inherits(Aptitudes, _React$Component5);
 
     function Aptitudes() {
         _classCallCheck(this, Aptitudes);
@@ -163,8 +190,8 @@ var Aptitudes = function (_React$Component4) {
     return Aptitudes;
 }(React.Component);
 
-var AsideAficiones = function (_React$Component5) {
-    _inherits(AsideAficiones, _React$Component5);
+var AsideAficiones = function (_React$Component6) {
+    _inherits(AsideAficiones, _React$Component6);
 
     function AsideAficiones() {
         _classCallCheck(this, AsideAficiones);
@@ -198,8 +225,8 @@ var AsideAficiones = function (_React$Component5) {
     return AsideAficiones;
 }(React.Component);
 
-var AsideAptitudes = function (_React$Component6) {
-    _inherits(AsideAptitudes, _React$Component6);
+var AsideAptitudes = function (_React$Component7) {
+    _inherits(AsideAptitudes, _React$Component7);
 
     function AsideAptitudes() {
         _classCallCheck(this, AsideAptitudes);
@@ -224,8 +251,8 @@ var AsideAptitudes = function (_React$Component6) {
     return AsideAptitudes;
 }(React.Component);
 
-var Aside = function (_React$Component7) {
-    _inherits(Aside, _React$Component7);
+var Aside = function (_React$Component8) {
+    _inherits(Aside, _React$Component8);
 
     function Aside() {
         _classCallCheck(this, Aside);
@@ -271,8 +298,8 @@ var Aside = function (_React$Component7) {
     return Aside;
 }(React.Component);
 
-var NavButton = function (_React$Component8) {
-    _inherits(NavButton, _React$Component8);
+var NavButton = function (_React$Component9) {
+    _inherits(NavButton, _React$Component9);
 
     function NavButton() {
         _classCallCheck(this, NavButton);
@@ -294,8 +321,8 @@ var NavButton = function (_React$Component8) {
     return NavButton;
 }(React.Component);
 
-var Mail = function (_React$Component9) {
-    _inherits(Mail, _React$Component9);
+var Mail = function (_React$Component10) {
+    _inherits(Mail, _React$Component10);
 
     function Mail() {
         _classCallCheck(this, Mail);
@@ -321,8 +348,8 @@ var Mail = function (_React$Component9) {
     return Mail;
 }(React.Component);
 
-var Contact = function (_React$Component10) {
-    _inherits(Contact, _React$Component10);
+var Contact = function (_React$Component11) {
+    _inherits(Contact, _React$Component11);
 
     function Contact() {
         _classCallCheck(this, Contact);
@@ -348,8 +375,8 @@ var Contact = function (_React$Component10) {
     return Contact;
 }(React.Component);
 
-var Navbar = function (_React$Component11) {
-    _inherits(Navbar, _React$Component11);
+var Navbar = function (_React$Component12) {
+    _inherits(Navbar, _React$Component12);
 
     function Navbar() {
         _classCallCheck(this, Navbar);
@@ -435,8 +462,8 @@ var Navbar = function (_React$Component11) {
     return Navbar;
 }(React.Component);
 
-var WhiteHeading = function (_React$Component12) {
-    _inherits(WhiteHeading, _React$Component12);
+var WhiteHeading = function (_React$Component13) {
+    _inherits(WhiteHeading, _React$Component13);
 
     function WhiteHeading() {
         _classCallCheck(this, WhiteHeading);
@@ -462,8 +489,8 @@ var WhiteHeading = function (_React$Component12) {
     return WhiteHeading;
 }(React.Component);
 
-var BlackHeading = function (_React$Component13) {
-    _inherits(BlackHeading, _React$Component13);
+var BlackHeading = function (_React$Component14) {
+    _inherits(BlackHeading, _React$Component14);
 
     function BlackHeading() {
         _classCallCheck(this, BlackHeading);
@@ -489,8 +516,8 @@ var BlackHeading = function (_React$Component13) {
     return BlackHeading;
 }(React.Component);
 
-var Heading = function (_React$Component14) {
-    _inherits(Heading, _React$Component14);
+var Heading = function (_React$Component15) {
+    _inherits(Heading, _React$Component15);
 
     function Heading() {
         _classCallCheck(this, Heading);
@@ -569,8 +596,8 @@ var Heading = function (_React$Component14) {
     return Heading;
 }(React.Component);
 
-var Inicio = function (_React$Component15) {
-    _inherits(Inicio, _React$Component15);
+var Inicio = function (_React$Component16) {
+    _inherits(Inicio, _React$Component16);
 
     function Inicio() {
         _classCallCheck(this, Inicio);
@@ -584,6 +611,7 @@ var Inicio = function (_React$Component15) {
             return React.createElement(
                 "div",
                 null,
+                React.createElement(ConsoleChange, null),
                 React.createElement(Heading, { name: "Curriculum Vitae" }),
                 React.createElement(
                     "div",

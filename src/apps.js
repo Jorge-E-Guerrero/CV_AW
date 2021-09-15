@@ -9,6 +9,17 @@ class NavButton extends React.Component{
 }
 */
 
+class ConsoleChange extends React.Component{
+    render (){
+        return (
+
+            <div>
+                <h1>This is the change from the console using git</h1>
+            </div>
+        );
+    }
+}
+
 
 class Aficiones extends React.Component{
     render (){
@@ -317,6 +328,7 @@ class Inicio extends React.Component {
     render(){
         return (
             <div>
+                 <ConsoleChange />
                  <Heading name="Curriculum Vitae" />
                  <div style={{Height: '100%'}}>
                  <div style={{float: 'left'}}>
