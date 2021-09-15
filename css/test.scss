@@ -1,0 +1,114 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    font-family:cursive;
+    border-style: inset;
+    border-width: 3px;
+}
+
+section {
+    background-color: rgb(207, 207, 207);
+    float: left;
+    width: 275px;
+    height: 1100px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.sectionh1 {
+    color: rgb(62, 144, 236);
+    text-transform: uppercase;
+    text-shadow:2px 2px rgb(255, 255, 255);
+    text-decoration: underline ;
+    
+}
+
+aside {
+    background-color: rgb(153, 237, 245);
+    padding: 30px;
+    border-radius: 15px;
+    float:right;
+    min-width: 600px;
+    width: 60%;
+    margin-left: 10px;
+
+}
+
+.h1aside {
+    color:  white;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px  black;
+}
+
+.h3aside {
+
+    border-bottom: 3px solid rgb(52, 204, 255);
+}
+
+.paside {
+    width: 500px;
+    text-align: justify;
+}
+
+.correo {
+    color: cornflowerblue;
+}
+
+.h2contacto {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.pcontacto {
+    font-size: 15px;
+}
+
+a:link {
+    color:dodgerblue;
+}
+
+a:visited {
+    color: rgb(49, 207, 255);
+}
+a:hover {
+    color: deeppink;
+}
+a:active {
+    color: dodgerblue;
+}
+
+@mixin dimensions($radius) {
+     //-webkit-border-radius: $radius;
+        //-moz-border-radius: $radius;
+         //-ms-border-radius: $radius;
+             //border-radius: $radius;
+             width: $radius;
+             height: $radius;
+             margin-left: auto;
+             margin-right: auto;
+    
+}
+
+#caja {
+    @include dimensions(50px);
+    background-color: black;
+}
+
+.container {
+    float:unset;
+}
+
+.imagenbootstrap {
+    @include dimensions(150px);
+    
+}
+
+li{
+    float:inherit;
+    padding-right: 50px;
+}
+
+

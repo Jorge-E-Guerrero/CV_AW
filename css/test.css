@@ -1,0 +1,105 @@
+body {
+  background-color: #ebebeb;
+  font-family: cursive;
+  border-style: inset;
+  border-width: 3px;
+}
+
+section {
+  background-color: #cfcfcf;
+  float: left;
+  width: 275px;
+  height: 1100px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.sectionh1 {
+  color: #3e90ec;
+  text-transform: uppercase;
+  text-shadow: 2px 2px white;
+  text-decoration: underline;
+}
+
+aside {
+  background-color: #99edf5;
+  padding: 30px;
+  border-radius: 15px;
+  float: left;
+  min-width: 600px;
+  width: 60%;
+  margin-left: 10px;
+}
+
+.h1aside {
+  color: white;
+  font-size: 35px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.h3aside {
+  border-bottom: 3px solid #34ccff;
+}
+
+.paside {
+  width: 500px;
+  text-align: justify;
+}
+
+.correo {
+  color: cornflowerblue;
+}
+
+.h2contacto {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.pcontacto {
+  font-size: 15px;
+}
+
+a:link {
+  color: dodgerblue;
+}
+
+a:visited {
+  color: #31cfff;
+}
+
+a:hover {
+  color: deeppink;
+}
+
+a:active {
+  color: dodgerblue;
+}
+
+#caja {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.container {
+  float: unset;
+}
+
+.imagenbootstrap {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  float: inherit;
+  padding-right: 50px;
+}
+
+
+
+/*# sourceMappingURL=test.css.map */
