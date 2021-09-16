@@ -13,8 +13,9 @@ class ConsoleChange extends React.Component{
     render (){
         return (
 
+
             <div >
-                <h1>This is the change from the github branch app </h1>
+                <h1></h1>
             </div>
         );
     }
