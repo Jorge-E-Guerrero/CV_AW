@@ -14,9 +14,7 @@ class ConsoleChange extends React.Component{
         return (
 
             <div >
-                <h1>This is the change from app</h1>
-                <h1>This is the change from branch Console</h1>
-
+                <h1>This is the original value from main</h1>
             </div>
         );
     }
