@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 body {
   background-color: #ebebeb;
   font-family: cursive;
@@ -26,7 +30,7 @@ aside {
   background-color: #99edf5;
   padding: 30px;
   border-radius: 15px;
-  float: left;
+  float: right;
   min-width: 600px;
   width: 60%;
   margin-left: 10px;
@@ -99,7 +103,5 @@ li {
   float: inherit;
   padding-right: 50px;
 }
-
-
 
 /*# sourceMappingURL=test.css.map */

@@ -36,8 +36,8 @@ var ConsoleChange = function (_React$Component) {
                 null,
                 React.createElement(
                     "h1",
-                    null,
-                    "This is the change from the console using git"
+                    { "class": "conflict" },
+                    "This is the change from the branch app"
                 )
             );
         }
