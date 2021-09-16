@@ -37,7 +37,7 @@ var ConsoleChange = function (_React$Component) {
                 React.createElement(
                     "h1",
                     null,
-                    "This is the change from the console using git"
+                    "This is the change from the console using git form branch console"
                 )
             );
         }
